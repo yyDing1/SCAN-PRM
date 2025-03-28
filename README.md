@@ -5,7 +5,7 @@
 - SCAN-Base in `datasets/SCAN-Base`
 - SCAN-Pro in `datasets/SCAN-Pro`
 
-Due to the storage limit of single file, we upload the first 10K rows.
+Due to the storage limit of a single file, we upload the first 100 rows.
 
 ## Step 1: Env build
 
@@ -26,11 +26,11 @@ Note that you can jump to the Step 3 to directly train the PRM using the provide
 # Data Synthesis
 python -m src.eval_prm.main_datasyn
 
-# Convert to standart dataset
+# Convert to standard dataset
 cd SCAN-Base && python process.py
 ```
 
-Note that you should mannually set some parameters in `src/eval_prm/main_datasyn.py`
+Note that you should manually set some parameters in `src/eval_prm/main_datasyn.py`
 
 
 # Step 3: Train PRMs
