@@ -33,13 +33,13 @@ cd SCAN-Base && python process.py
 Note that you should manually set some parameters in `src/eval_prm/main_datasyn.py`
 
 
-# Step 3: Train PRMs
+## Step 3: Train PRMs
 
 ```bash
 bash scripts/train.sh
 ```
 
-# Step 4: Eval PRMs
+## Step 4: Eval PRMs
 
 ```bash
 # Best-Of-N Evaluation
@@ -51,7 +51,7 @@ python -m src.eval_prm.main_pb
 
 Note that you should set the path of the trained process reward models in the scripts.
 
-# Others
+## Others
 
 We also provide the synthesis scripts
 
