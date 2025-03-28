@@ -1,0 +1,29 @@
+vllm
+accelerate
+datasets
+deepspeed
+einops
+flash-attn
+isort
+jsonlines
+loralib
+optimum
+packaging
+peft
+ray
+tensorboard
+torch
+torchmetrics
+tqdm
+transformers
+transformers_stream_generator
+wandb
+wheel
+orjson
+tabulate
+word2number
+# sympy==1.12
+# antlr4-python3-runtime==4.11.1
+Pebble
+timeout-decorator
+git+https://github.com/ZubinGou/latex2sympy
