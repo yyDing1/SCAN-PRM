@@ -53,7 +53,7 @@ Note that you should set the path of the trained process reward models in the sc
 
 ## Others
 
-We also provide the synthesis scripts
+We also provide the synthesis scripts of our preliminary study.
 
 ```bash
 python -m src.eval_prm.main_rollout_eval
